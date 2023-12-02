@@ -1,0 +1,64 @@
+.maindiv
+{
+    display: flex;
+    justify-content: space-around;
+}
+#maindiv
+{
+    text-align: center;
+    border-radius: 10px;
+    /* background-color: aqua; */
+    margin: auto;
+    margin-top:50px ;
+    width: 500px;
+    box-shadow: 0px 0px 2px 3px rgba(150, 150, 150, 0.2),
+    inset -0px -0px 24px 5px rgba(150, 150, 150, 0.2);    
+}
+#headerdiv
+{
+    padding-top: 3px;
+}
+#detail
+{
+    margin:19px;
+}
+input
+{
+    width: 400px;
+    height: 30px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+
+    
+}
+input:focus
+{
+    border-color: inherit;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+    /* background-color: red; */
+}
+.buttondiv
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+#button
+{
+    width: 100px;
+    border-radius: 9px;
+    height: 40px;
+    border: none;
+    background-color: rgba(108, 106, 106, 0.2);
+   
+}
+a
+{
+    text-decoration: none;
+}
+#link
+{
+    
+    color: black;
+}
